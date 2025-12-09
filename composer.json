@@ -19,38 +19,24 @@
         "issues": "https://github.com/carsaimz/mpesa-api/issues",
         "source": "https://github.com/carsaimz/mpesa-api",
         "docs": "https://github.com/carsaimz/mpesa-api/blob/main/README.md",
-        "whatsapp": [
-            "+258 83 502 0143",
-            "+258 86 241 4345"
-        ]
+        "forum": "https://github.com/carsaimz/mpesa-api/discussions"
     },
     "authors": [
         {
             "name": "Carsai Mozambique",
             "email": "carsaimozambique@gmail.com",
-            "homepage": "https://carsai.co.mz",
-            "role": "Company",
-            "contact": {
-                "phone": "+258 84 441 4345",
-                "whatsapp": "+258 83 502 0143"
-            }
+            "homepage": "https://carsaimz.free.nf",
+            "role": "Company"
         },
         {
             "name": "Carimo Saide",
             "email": "carimosaidempinda@gmail.com",
-            "role": "CEO & Author",
-            "contact": {
-                "whatsapp": "+258 86 241 4345"
-            }
+            "role": "CEO & Author"
         },
         {
             "name": "CarsaiDev",
             "email": "carsaideveloper@gmail.com",
-            "role": "Development Unit",
-            "contact": {
-                "phone": "+258 84 284 6463",
-                "whatsapp": "+258 86 241 4345"
-            }
+            "role": "Development Unit"
         }
     ],
     "autoload": {
@@ -78,10 +64,10 @@
             "@composer validate --no-check-all --strict"
         ],
         "post-install-cmd": [
-            "echo '🚀 M-PESA API instalada com sucesso! Para começar, visite: https://github.com/carsaimz/mpesa-api'"
+            "echo '🚀 M-PESA API instalada com sucesso!\\n📞 Suporte: +258 83 502 0143 (WhatsApp)\\n🌐 Docs: https://github.com/carsaimz/mpesa-api'"
         ],
         "post-update-cmd": [
-            "echo '📦 M-PESA API atualizada! Verifique as novas funcionalidades em: https://github.com/carsaimz/mpesa-api/releases'"
+            "echo '📦 M-PESA API atualizada!\\n💝 Apoie: https://paypal.me/carsaimozambique\\n🐛 Issues: https://github.com/carsaimz/mpesa-api/issues'"
         ]
     },
     "minimum-stability": "stable",
@@ -93,6 +79,14 @@
         "csa": {
             "company": "Carsai Mozambique",
             "website": "https://carsaimz.free.nf",
+            "contact": {
+                "email": "carsaimozambique@gmail.com",
+                "phone": "+258 84 441 4345",
+                "whatsapp": [
+                    "+258 83 502 0143",
+                    "+258 86 241 4345"
+                ]
+            },
             "services": [
                 "Software Development",
                 "Payment Solutions",
