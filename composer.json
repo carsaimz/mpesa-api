@@ -1,0 +1,126 @@
+{
+    "name": "carsaimz/mpesa-api",
+    "description": "API PHP para integração com M-PESA Moçambique | PHP API for M-PESA Mozambique integration",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "keywords": [
+        "mpesa",
+        "mozambique",
+        "payment",
+        "api",
+        "mobile-money",
+        "mobile-payments",
+        "banksdk",
+        "fintech"
+    ],
+    "homepage": "https://github.com/carsaimz/mpesa-api",
+    "support": {
+        "email": "carsaimozambique@gmail.com",
+        "issues": "https://github.com/carsaimz/mpesa-api/issues",
+        "source": "https://github.com/carsaimz/mpesa-api",
+        "docs": "https://github.com/carsaimz/mpesa-api/blob/main/README.md",
+        "whatsapp": [
+            "+258 83 502 0143",
+            "+258 86 241 4345"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Carsai Mozambique",
+            "email": "carsaimozambique@gmail.com",
+            "homepage": "https://carsai.co.mz",
+            "role": "Company",
+            "contact": {
+                "phone": "+258 84 441 4345",
+                "whatsapp": "+258 83 502 0143"
+            }
+        },
+        {
+            "name": "Carimo Saide",
+            "email": "carimosaidempinda@gmail.com",
+            "role": "CEO & Author",
+            "contact": {
+                "whatsapp": "+258 86 241 4345"
+            }
+        },
+        {
+            "name": "CarsaiDev",
+            "email": "carsaideveloper@gmail.com",
+            "role": "Development Unit",
+            "contact": {
+                "phone": "+258 84 284 6463",
+                "whatsapp": "+258 86 241 4345"
+            }
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "carsaimz\\": "src/"
+        },
+        "files": ["autoload.php"]
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-openssl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "suggest": {
+        "guzzlehttp/guzzle": "Para uma implementação HTTP mais robusta (opcional)",
+        "monolog/monolog": "Para logging avançado (opcional)"
+    },
+    "scripts": {
+        "test": "phpunit tests/",
+        "check": [
+            "@php -v",
+            "@composer validate --no-check-all --strict"
+        ],
+        "post-install-cmd": [
+            "echo '🚀 M-PESA API instalada com sucesso! Para começar, visite: https://github.com/carsaimz/mpesa-api'"
+        ],
+        "post-update-cmd": [
+            "echo '📦 M-PESA API atualizada! Verifique as novas funcionalidades em: https://github.com/carsaimz/mpesa-api/releases'"
+        ]
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0.x-dev"
+        },
+        "csa": {
+            "company": "Carsai Mozambique",
+            "website": "https://carsaimz.free.nf",
+            "services": [
+                "Software Development",
+                "Payment Solutions",
+                "API Integration",
+                "FinTech Solutions"
+            ],
+            "compliance": [
+                "MPESA Certified Integration",
+                "Bank of Mozambique Guidelines"
+            ]
+        }
+    },
+    "funding": [
+        {
+            "type": "paypal",
+            "url": "https://paypal.me/carsaimozambique"
+        },
+        {
+            "type": "paypal",
+            "url": "https://paypal.me/carimosaide"
+        },
+        {
+            "type": "custom",
+            "url": "https://carsaimz.free.nf/donate"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/carsaimz"
+        }
+    ]
+}
