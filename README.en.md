@@ -218,7 +218,7 @@ mpesa-api/
 │   ├── status.php
 │   └── customer_name.php
 ├── README.md
-├── README.pt.md
+├── README.en.md
 └── composer.json
 ```
 
